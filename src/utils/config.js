@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://react-insta-chi.vercel.app';
+export const BASE_URL = 'https://instagram-cloner-yoqub.herokuapp.com';
