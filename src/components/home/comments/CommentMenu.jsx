@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteComment } from '../../../redux/actions/commentAction';
-
+//.
 const CommentMenu = ({post, comment, setOnEdit}) => {
     const { auth, socket } = useSelector(state => state);
     const dispatch = useDispatch();
