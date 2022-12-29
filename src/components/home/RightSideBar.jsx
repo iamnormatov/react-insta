@@ -4,7 +4,7 @@ import UserCard from './../UserCard';
 import FollowBtn from './../FollowBtn';
 import LoadIcon from '../../images/loading.gif';
 import { getSuggestions } from '../../redux/actions/suggestionsAction'
-
+//.
 const RightSideBar = () => {
     const { auth, suggestions } = useSelector(state => state);
     const dispatch = useDispatch();
