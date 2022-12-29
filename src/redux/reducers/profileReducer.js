@@ -1,6 +1,6 @@
 import { PROFILE_TYPES } from '../actions/profileAction';
 import { EditData } from '../actions/globalTypes'
-
+//.
 const initialState = {
     loading: false,
     ids: [],
