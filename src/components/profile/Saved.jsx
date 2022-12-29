@@ -4,7 +4,7 @@ import LoadIcon from '../../images/loading.gif';
 import LoadMoreBtn from '../LoadMoreBtn';
 import { getDataAPI } from '../../utils/fetchData';
 import { GLOBALTYPES } from '../../redux/actions/globalTypes';
-
+//.
 const Saved = ({auth, dispatch}) => {
     const [savePosts, setSavePosts] = useState([]);
     const [result, setResult] = useState(9);
