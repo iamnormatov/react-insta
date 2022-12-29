@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import CommentDisplay from './comments/CommentDisplay';
-
+//.
 const Comments = ({ post }) => {
     const [comments, setComments] = useState([]);
     const [showComments, setShowComments] = useState([]);
