@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { follow, unfollow } from '../redux/actions/profileAction';
-
+//.
 const FollowBtn = ({user}) => {
     const [followed, setFollowed] = useState(false);
     const { auth, profile, socket } = useSelector(state => state);
