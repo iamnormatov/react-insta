@@ -1,5 +1,5 @@
 import { GLOBALTYPES } from '../actions/globalTypes';
-
+//.
 
 const statusReducer = (state = false, action) => {
     switch (action.type) {
