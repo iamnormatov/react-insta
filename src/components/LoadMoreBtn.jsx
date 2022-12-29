@@ -1,5 +1,5 @@
 import React from 'react';
-
+//.
 const LoadMoreBtn = ({result, page, load, handleLoadMore}) => {
     return (
         <>
