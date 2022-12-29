@@ -1,6 +1,6 @@
 import { MESS_TYPES } from "../actions/messageAction";
 import { EditData, DeleteData } from "../actions/globalTypes";
-
+//.
 const initialState = {
     users: [],
     resultUsers: 0,
