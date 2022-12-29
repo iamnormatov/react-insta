@@ -8,7 +8,7 @@ export const imageShow = (src, theme) => {
         />
     )
 }
-//.
+//..
 export const videoShow = (src, theme) => {
     return (
         <video
