@@ -4,7 +4,7 @@ import Avatar from '../Avatar';
 import { GLOBALTYPES } from './../../redux/actions/globalTypes';
 import { addMessage } from '../../redux/actions/messageAction';
 import RingRing from '../../audio/client_src_audio_ringring.mp3';
-
+//.
 const CallModal = () => {
     const { call, auth, peer, socket, theme } = useSelector(state => state);
     const dispatch = useDispatch();
