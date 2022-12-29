@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { getPost } from '../../redux/actions/postAction';
 import LoadIcon from '../../images/loading.gif';
 import PostCard from './../../components/PostCard';
-
+//.
 const Post = () => {
     const { id } = useParams();
     const [post, setPost] = useState([]);
