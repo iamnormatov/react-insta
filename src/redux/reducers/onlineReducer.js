@@ -1,5 +1,5 @@
 import { GLOBALTYPES } from '../actions/globalTypes';
-
+//.
 const onlineReducer = (state = [], action) => {
     switch (action.type) {
         case GLOBALTYPES.ONLINE:
