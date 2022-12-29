@@ -1,6 +1,6 @@
 import { NOTIFY_TYPES } from '../actions/notifyAction';
 import { EditData } from '../actions/globalTypes';
-
+//.
 const initialState = {
     loading: false,
     data: [],
