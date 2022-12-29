@@ -1,5 +1,5 @@
 import { DISCOVER_TYPES } from "../actions/discoverAction"
-
+//.
 const initialState = {
     laoding: false,
     posts: [],
