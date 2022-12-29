@@ -5,7 +5,7 @@ import FollowBtn from './../FollowBtn';
 import Following from './Following';
 import Followers from './Followers';
 import { GLOBALTYPES } from './../../redux/actions/globalTypes';
-
+//.
 const Info = ({ id, auth, profile, dispatch }) => {
     const [ userData, setUserData ] = useState([]);
     const [onEdit, setOnEdit] = useState(false);
