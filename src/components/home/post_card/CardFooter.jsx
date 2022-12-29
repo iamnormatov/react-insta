@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { likePost, unLikePost, savePost, unSavePost } from '../../../redux/actions/postAction';
 import ShareModal from '../../ShareModal';
 import { BASE_URL } from '../../../utils/config';
-
+//.
 const CardFooter = ({post}) => {
     const [isLike, setIsLike] = useState(false);
     const [loadLike, setLoadLike] = useState(false);
