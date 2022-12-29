@@ -4,7 +4,7 @@ import { GLOBALTYPES } from './../redux/actions/globalTypes';
 import { createPost, updatePost } from '../redux/actions/postAction';
 import Icons from './Icons';
 import { imageShow, videoShow } from '../utils/mediaShow';
-
+//.
 const StatusModel = () => {
     const { auth, theme, status, socket } = useSelector(state => state);
     const dispatch = useDispatch();
