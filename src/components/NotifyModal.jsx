@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Avatar from './Avatar';
 import moment from 'moment';
 import { isReadNotify, NOTIFY_TYPES, deleteAllNotifies } from '../redux/actions/notifyAction';
-
+//.
 const NotifyModal = () => {
     const { auth, notify, theme } = useSelector(state => state);
     const dispatch = useDispatch();
