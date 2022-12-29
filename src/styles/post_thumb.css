@@ -16,7 +16,7 @@
   cursor: pointer;
   overflow: hidden;
 }
-
+/* , */
 .post_thumb_display img,
 .post_thumb_display video {
   width: 100%;
