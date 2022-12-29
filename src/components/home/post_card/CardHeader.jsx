@@ -6,7 +6,7 @@ import moment from 'moment';
 import { GLOBALTYPES } from '../../../redux/actions/globalTypes';
 import { deletePost } from '../../../redux/actions/postAction';
 import { BASE_URL } from '../../../utils/config';
-
+//.
 const CardHeader = ({post}) => {
     const { auth, socket } = useSelector(state => state);
     const dispatch = useDispatch();
