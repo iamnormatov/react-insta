@@ -1,5 +1,5 @@
 import { GLOBALTYPES } from '../actions/globalTypes';
-
+//.
 const peerReducer = (state = null, action) => {
     switch (action.type) {
         case GLOBALTYPES.PEER:
