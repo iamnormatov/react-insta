@@ -10,7 +10,7 @@ export const GLOBALTYPES = {
     CALL: "CALL",
     PEER: "PEER"
 }
-
+//.
 export const EditData = (data, id, post) => {
     const newData = data.map(item =>
         (item._id === id ? post : item)
