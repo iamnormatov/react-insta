@@ -1,6 +1,6 @@
 import React from 'react';
 import LeftSide from '../../components/message/LeftSide';
-
+//.
 const Message = () => {
     return (
         <div className="message d-flex">
