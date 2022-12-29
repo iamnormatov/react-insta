@@ -1,5 +1,5 @@
 import { SUGGES_TYPES } from '../actions/suggestionsAction';
-
+//.
 const initialState = {
     loading: false,
     users: []
