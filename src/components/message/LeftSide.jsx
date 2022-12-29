@@ -5,7 +5,7 @@ import { getDataAPI } from './../../utils/fetchData';
 import { GLOBALTYPES } from './../../redux/actions/globalTypes';
 import { useHistory, useParams } from 'react-router';
 import { MESS_TYPES, getConversations } from '../../redux/actions/messageAction';
-
+//.
 const LeftSide = () => {
     const { auth, message, online } = useSelector(state => state);
     const dispatch = useDispatch();
