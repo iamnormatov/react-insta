@@ -4,7 +4,7 @@ import { getDataAPI } from './../../utils/fetchData';
 import { GLOBALTYPES } from './../../redux/actions/globalTypes';
 import UserCard from './../UserCard';
 import LoadIcon from '../../images/loading.gif';
-
+//.
 
 const Search = () => {
     const [search, setSearch] = useState('');
