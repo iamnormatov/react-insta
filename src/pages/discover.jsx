@@ -5,7 +5,7 @@ import LoadIcon from '../images/loading.gif';
 import PostThumb from './../components/PostThumb';
 import LoadMoreBtn from '../components/LoadMoreBtn';
 import { getDataAPI } from '../utils/fetchData';
-
+//.
 const Discover = () => {
     const { auth, discover } = useSelector(state => state);
     const dispatch = useDispatch();
