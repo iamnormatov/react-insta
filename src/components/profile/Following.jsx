@@ -2,7 +2,7 @@ import React from 'react';
 import UserCard from './../UserCard';
 import FollowBtn from './../FollowBtn';
 import { useSelector } from 'react-redux';
-
+//.
 const Following = ({users, setShowFollowing}) => {
     const { auth } = useSelector(state => state)
     return (
