@@ -1,6 +1,6 @@
 import { GLOBALTYPES, DeleteData } from './globalTypes';
 import { postDataAPI, getDataAPI, deleteDataAPI } from '../../utils/fetchData';
-
+//.
 export const MESS_TYPES = {
     ADD_USER: 'ADD_USER',
     ADD_MESSAGE: 'ADD_MESSAGE',
