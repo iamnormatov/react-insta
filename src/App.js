@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-
+//.
 import PageRender from './customRouter/pageRender';
 import PrivateRouter from './customRouter/PrivateRouter';
 
