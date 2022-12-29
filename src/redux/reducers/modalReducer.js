@@ -1,5 +1,5 @@
 import { GLOBALTYPES } from '../actions/globalTypes';
-
+//.
 const initialState = false;
 
 const modalReducer = (state = initialState, action) => {
